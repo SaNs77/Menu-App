@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 3fr 1fr 3fr;
   grid-gap: 2em;
   justify-items: center;
-  align-items: center;
+  transition: all 0.5s;
 }
 .title {
   margin-bottom: 30px;
@@ -96,6 +96,7 @@ body {
   color: black;
   background-color: rgb(236, 233, 225);
   font-weight: bolder;
+  text-transform: capitalize;
 }
 
 .btn:hover {
