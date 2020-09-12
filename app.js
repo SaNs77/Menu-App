@@ -1,3 +1,4 @@
+AOS.init();
 const menu = [
   {
     id: 1,
@@ -167,14 +168,14 @@ function showMenu(newarray) {
   newMenu = newarray
     .map(function (items) {
       return ` 
-      <div class="food_image">
+      <div class="food_image" data-aos="fade-right" data-aos-duration="1000">
           <img src=${items.img} alt="${items.title}" />
         </div>
-        <div class="food_desc">
+        <div class="food_desc" data-aos="fade-up" data-aos-duration="1000">
           <h1>${items.title}</h1>
 
           <h1>Rs ${items.price}</h1>
-          <div class="line"></div>
+          <div class="line" ></div>
           <p>
             ${items.desc}
           </p>

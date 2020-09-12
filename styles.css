@@ -54,6 +54,7 @@
   border-radius: 1em;
   box-shadow: 10px 10px 17px -6px rgba(0, 0, 0, 0.75),
     -12px -7px 17px -6px rgba(0, 0, 0, 0.75);
+  scroll-behavior: smooth;
 }
 .food_desc h1 {
   color: rgb(80, 58, 1);
